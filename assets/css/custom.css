@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+.bg-black{
+	background-color: #000!important;
+}
+.cc{
+	display: flex;
+	justify-content: center;
+}
+.mx-750{
+	max-width: 750px;
+}
+.tc{
+	text-align: center;
+}
+.black{
+	color: black;
+}
+.white{
+	color: white;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../img/banner.jpg");
+
+  /* Set a specific height */
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.sec{
+	margin: 40px 0;
+}
+
+.cards-row .card{
+	box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
+	margin: 20px 0;
+	max-width: 430px;
+
+}
+.cards-row .card-body{
+	padding: 20px 10px;
+}
+
+.card-img-top{
+	transform: scale(1);
+	transition: transform 0.5s ease;
+}
+.card-img-top:hover{
+	transform: scale(1.5);
+}
+.img-overflow{
+	overflow: hidden;
+}
+
+.card-text {
+	max-width: 340px;
+}
+
+
+.shadow{
+	box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253);
+}
+.gallery img {
+	margin: 20px 0;
+	box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253);
+	
+}
